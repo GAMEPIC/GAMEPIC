@@ -1,0 +1,87 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #000;
+    color: #fff;
+    text-align: center;
+    margin: 0;
+    padding: 0;
+}
+
+.header h1 {
+    font-size: 36px;
+    margin-top: 20px;
+}
+
+.join-us {
+    background-color: #7d00ff;
+    padding: 10px;
+    font-size: 20px;
+    color: #fff;
+    margin-bottom: 10px;
+}
+
+.links a {
+    display: block;
+    margin: 10px auto;
+    padding: 15px;
+    text-decoration: none;
+    color: #fff;
+    border-radius: 5px;
+    width: 80%;
+    max-width: 400px;
+    font-size: 18px;
+    text-align: center;
+}
+
+.telegram {
+    background-color: #1da1f2;
+}
+
+.youtube {
+    background-color: #ff0000;
+}
+
+.instagram {
+    background-color: #e1306c;
+}
+
+.search-container {
+    margin-top: 20px;
+}
+
+input[type="text"] {
+    width: 70%;
+    padding: 12px;
+    font-size: 18px;
+    border: none;
+    border-radius: 5px;
+}
+
+button {
+    padding: 12px;
+    font-size: 18px;
+    background-color: #4caf50;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+#results {
+    margin-top: 20px;
+}
+
+.result-item {
+    background-color: #333;
+    padding: 10px;
+    margin: 5px auto;
+    border-radius: 5px;
+    cursor: pointer;
+    width: 80%;
+    max-width: 400px;
+    color: #fff;
+}
+
+.result-item:hover {
+    background-color: #555;
+}
